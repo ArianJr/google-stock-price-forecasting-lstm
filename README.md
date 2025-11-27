@@ -122,17 +122,13 @@ These metrics provide insight into how closely the model tracks real stock movem
 
 The notebook includes several informative visualizations:
 
-### ✔ Historical Closing Prices  
-Shows Google’s price trends over time.
-
 ### ✔ Actual vs. Predicted Prices  
 A direct comparison of model output vs. true values.
+![Actual vs Predicted Prices](images/actual_vs_predicted_prices.png)
 
 ### ✔ Training Loss Curve  
 Displays convergence behavior during model training.
-
-### ✔ Error Analysis  
-Shows prediction residuals and shape of forecasting errors.
+![Loss Over Epochs](images/loss_over_epochs.png)
 
 ---
 
