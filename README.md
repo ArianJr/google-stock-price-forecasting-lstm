@@ -14,6 +14,36 @@
 
 ---
 
+## Table of Contents
+- [📈 Google Stock Price Forecasting Using LSTM](#-google-stock-price-forecasting-using-lstm)
+  - [🔍 Overview](#-overview)
+  - [🎯 Objectives](#-objectives)
+  - [📂 Project Structure](#-project-structure)
+  - [🛠️ Technologies Used](#️-technologies-used)
+  - [🧠 Model Architecture](#-model-architecture)
+    - [Model Summary](#model-summary)
+  - [📉 Model Performance](#-model-performance)
+  - [📊 Visualizations](#-visualizations)
+    - [✔ Actual vs. Predicted Prices](#-actual-vs-predicted-prices)
+    - [✔ Training Loss Curve](#-training-loss-curve)
+  - [🔍 Key Insights](#-key-insights)
+  - [⚠️ Limitations](#️-limitations)
+  - [🚀 Future Improvements](#-future-improvements)
+  - [▶️ How to Run](#️-how-to-run)
+    - [1️⃣ Clone the repository](#1️⃣-clone-the-repository)
+    - [2️⃣ Install dependencies](#2️⃣-install-dependencies)
+    - [3️⃣ Launch the notebook](#3️⃣-launch-the-notebook)
+  - [📦 Data Source](#-data-source)
+    - [Dataset Description](#dataset-description)
+    - [How It Was Used](#how-it-was-used)
+    - [Attribution](#attribution)
+  - [📜 License](#-license)
+  - [🙏 Acknowledgements](#-acknowledgements)
+  - [🤝 Contributions](#-contributions)
+  - [👤 Author](#-author)
+
+---
+
 ## 🔍 Overview
 
 This project demonstrates how to build and evaluate a **Long Short-Term Memory (LSTM)** deep learning model to forecast the closing price of **Google (GOOGL)** stock.
