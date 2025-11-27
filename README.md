@@ -178,6 +178,27 @@ jupyter notebook google_stock_lstm_forecast.ipynb
 
 ---
 
+## 📦 Data Source
+
+The data used for training and evaluating the forecasting model comes from the publicly available dataset **“Gooogle Stock Price”** on Kaggle. The dataset was published by user **rahulsah06**.  
+[View Dataset on Kaggle](https://www.kaggle.com/datasets/rahulsah06/gooogle-stock-price)
+
+### Dataset Description
+- Historical daily stock prices for Alphabet Inc. (GOOG), including:
+  - Open, High, Low, Close, and Volume
+- Data is in CSV format and is suitable for time-series modeling.
+
+### How It Was Used
+- The “Close” price column was extracted and normalized to feed into the LSTM forecasting model.
+- Time windows of 60 past trading days were used to predict the next-day closing price.
+
+### Attribution
+If you reuse or redistribute this data, please attribute the original dataset:
+
+> "Gooogle Stock Price" by rahulsah06, available on Kaggle: [https://www.kaggle.com/datasets/rahulsah06/gooogle-stock-price](https://www.kaggle.com/datasets/rahulsah06/gooogle-stock-price)
+
+---
+
 ## 📜 License
 
 This project is provided under the [MIT License](LICENSE).
