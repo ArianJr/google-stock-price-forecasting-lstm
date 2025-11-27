@@ -85,9 +85,9 @@ Dense Layer (units=1)  # Forecasted closing price
 | Dropout      | (None, 60)     | 0       |
 | Dense        | (None, 1)      | 61      |
 
-Total params: 72,021
-Trainable params: 72,021
-Non-trainable params: 0
+- Total params: 72,021
+- Trainable params: 72,021
+- Non-trainable params: 0
 
 ---
 
