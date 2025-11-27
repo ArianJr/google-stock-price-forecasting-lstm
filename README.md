@@ -74,28 +74,19 @@ Dense Layer (units=1)  # Forecasted closing price
 - **Output:** Next-day closing price prediction  
 
 ### Model Summary
-_________________________________________________________________
- Layer (type)                Output Shape              Param #   
-=================================================================
- lstm (LSTM)                 (None, 60, 60)            14880      
-                                                                 
- dropout (Dropout)           (None, 60, 60)            0         
-                                                                 
- lstm_1 (LSTM)               (None, 60)                29040     
-                                                                 
- dropout_1 (Dropout)         (None, 60)                0         
-                                                                 
- lstm_2 (LSTM)               (None, 60)                29040     
-                                                                 
- dropout_2 (Dropout)         (None, 60)                0         
-                                                                 
- dense (Dense)               (None, 1)                 61        
-                                                                 
-=================================================================
-Total params: 72,021  
-Trainable params: 72,021  
-Non-trainable params: 0  
-_________________________________________________________________
+
+|   | Layer (type) | Output Shape   | Param # |
+| - | ------------ | -------------- | ------- |
+| 1 | LSTM         | (None, 60, 60) | 14880   |
+| 2 | Dropout      | (None, 60, 60) | 0       |
+| 3 | LSTM         | (None, 60, 60) | 29040   |
+| 4 | Dropout      | (None, 60, 60) | 0       |
+| 5 | LSTM         | (None, 60)     | 29040   |
+| 6 | Dropout      | (None, 60)     | 0       |
+| 7 | Dense        | (None, 1)      | 61      |
+Total params: 72,021
+Trainable params: 72,021
+Non-trainable params: 0
 
 ---
 
